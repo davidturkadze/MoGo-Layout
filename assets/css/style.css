@@ -35,7 +35,8 @@ hr {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -1088,4 +1089,59 @@ hr {
     font-size: 14px;
     color: #333;
     border-top: 1px solid #e5e5e5;
+}
+
+
+/* Minimum width of device is 320px (iPhone 5, SE) */
+
+
+/* Monitors and laptops */
+
+@media(max-width: 1230px) {
+    /* Intro */
+    .intro__suptitle {
+        font-size: 50px;
+    }
+    .intro__title {
+        font-size: 120px;
+    }
+}
+
+
+/* Tablet landscape */
+
+@media(max-width: 990px) {
+    /* Intro */
+    .intro__suptitle {
+        font-size: 32px;
+    }
+    .intro__title {
+        font-size: 80px;
+    }
+}
+
+
+/* Tablet portrait */
+
+@media(max-width: 770px) {
+    /* Intro */
+    .intro__suptitle {
+        font-size: 22px;
+    }
+    .intro__title {
+        font-size: 40px;
+    }
+}
+
+
+/* Mobile phones */
+
+@media(max-width: 575px) {
+    /* Intro */
+    .intro__suptitle {
+        font-size: 22px;
+    }
+    .intro__title {
+        font-size: 40px;
+    }
 }
