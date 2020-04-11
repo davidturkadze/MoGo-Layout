@@ -42,11 +42,7 @@ hr {
 
 .container {
     width: 100%;
-<<<<<<< HEAD
-    max-width: 1230px;
-=======
     max-width: 1200px;
->>>>>>> develop
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -1261,13 +1257,10 @@ hr {
     .intro__title {
         font-size: 120px;
     }
-<<<<<<< HEAD
-=======
     /* Reviews */
     .reviews__text {
         font-size: 20px;
     }
->>>>>>> develop
 }
 
 
@@ -1281,8 +1274,6 @@ hr {
     .intro__title {
         font-size: 80px;
     }
-<<<<<<< HEAD
-=======
     /* Stat */
     .stat {
         justify-content: center;
@@ -1341,7 +1332,6 @@ hr {
         width: auto;
         border: 1px solid white;
     }
->>>>>>> develop
 }
 
 
@@ -1349,13 +1339,6 @@ hr {
 
 @media(max-width: 770px) {
     /* Intro */
-<<<<<<< HEAD
-    .intro__suptitle {
-        font-size: 22px;
-    }
-    .intro__title {
-        font-size: 40px;
-=======
     .intro {
         min-height: 650px;
     }
@@ -1465,7 +1448,6 @@ hr {
     .footer__col--second,
     .footer__col--third {
         width: 100%;
->>>>>>> develop
     }
 }
 
@@ -1480,8 +1462,6 @@ hr {
     .intro__title {
         font-size: 40px;
     }
-<<<<<<< HEAD
-=======
     /* Section */
     .section__header {
         margin: 0 auto 30px;
@@ -1521,7 +1501,6 @@ hr {
     }
     .slick-arrow {
         top: 19%;
-        ;
     }
     /* Logos */
     .logos {
@@ -1574,5 +1553,4 @@ hr {
     .subscribe_btn {
         width: 100%;
     }
->>>>>>> develop
 }
